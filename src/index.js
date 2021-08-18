@@ -43,7 +43,7 @@ if (themeChecked) {
 };
 
 
-// CheckBox.addEventListener('change', onCheckTheme);
+ 
 
  function CheckboxChecked () {
 

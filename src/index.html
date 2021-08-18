@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href='./styles.css' />
   </head>
-  <body>
+  <body class=" js-dostup_body ">
     <div class="toolbar">
       <!-- Разметка переключателя темы -->
       <div class="theme-switch">
@@ -19,17 +19,19 @@
           <use href="./images/sprite.svg#sun"></use>
         </svg>
 
-        <div class="theme-switch__control">
+        <div class="theme-switch__control js-div_checkbox ">
           <input
-            class="theme-switch__toggle"
+            class="theme-switch__toggle js-input_checkbox"
             type="checkbox"
             name="theme"
             id="theme-switch-toggle"
             aria-label="Переключить между тёмной и светлой темой"
+            checked
+        
           />
           <label
             aria-hidden="true"
-            class="theme-switch__track"
+            class="theme-switch__track js-label_checkbox"
             for="theme-switch-toggle"
           >
           </label>

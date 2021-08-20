@@ -48,9 +48,9 @@ function onChangeTheme() {
 
 function CheckboxChecked() {
 
-  if (localStorage.getItem('theme') !== theme.LIGHT) {
-    bodytheme.classList.add(theme.LIGHT);
-    CheckBoxEl.checked = false;
+  if (localStorage.getItem('theme')=== theme.DARK) {
+    bodytheme.classList.add(theme.DARK);
+    CheckBoxEl.checked = true;
   }
 };
 
